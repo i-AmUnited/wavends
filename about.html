@@ -11,9 +11,10 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/Assets/style.css" />
   </head>
-  <body class="">
+  <body class="relative mt-32">
+    
     <!-- Nav -->
-    <div class="grid gap-6 md:gap-0 md:flex md:justify-between md:items-center text-white bg-black border-b border-white/20 px-4 md:px-10 py-5">
+    <div class="fixed top-0 w-full grid gap-6 md:gap-0 md:flex md:justify-between md:items-center text-white bg-black border-b border-white/20 px-4 md:px-10 py-5">
       <a href="/index.html" class="flex justify-center md:justify-start">
         <img src="/Assets/images/wavends-logo.png" alt="logo" class="h-14">
       </a>
@@ -102,7 +103,7 @@
 
      <!-- Connect with us -->
      <div class="px-4 md:px-10 mb-20">
-      <div class="w-full lg:w-3/5">
+      <div class="w-full">
         <p class="text-3xl big-text text-yellow-400 mb-3">Discover the possibilities with Wavends.</p>
         <p class="">Let us be your trusted IT solutions partner, guiding you towards a future of technological excellence. Contact us today to discuss how our third-party products can elevate your business to new heights.</p>
         <div class="mt-8">
@@ -113,8 +114,8 @@
 
   <!-- Footer -->
   <div class="px-4 md:px-10 border-t text-sm">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 py-20">
-      <div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:grid-cols-4 py-20">
+      <div class="col-span-1 lg:col-span-2">
         <p class="font-bold">Address:</p>
         <ul class="lg:list-disc list-inside grid gap-3 mt-6">
           <li>1 Martins Close, Shomolu, Lagos.</li>
@@ -177,5 +178,6 @@
     var currentYear = new Date().getFullYear();
     document.getElementById("currentYear").textContent = currentYear;
   </script>
+
 </body>
 </html>
