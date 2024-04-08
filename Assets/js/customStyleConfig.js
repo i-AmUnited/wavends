@@ -7,6 +7,7 @@ tailwind.config = {
         colors: {
           brandGreen: '#3aafa9',
           brand: '#102F44',
+          dark: '#17252A',
         }
       }
     }
