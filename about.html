@@ -11,178 +11,151 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/Assets/style.css" />
   </head>
-  <body class="relative mt-32">
-    
+  <body class="bg-dark text-white">
+    <!-- hero section -->
+    <div class="relative">
+      <!-- hero section -->
+      <div class="h-[70vh] overflow-hidden top-0">
+        <img
+          src="/Assets/images/about.jpg"
+          alt=""
+          class="h-full w-full object-cover change-image"
+        />
+      </div>
+      <div class="h-full w-full bg-gradient-to-t from-dark top-0 absolute">
+        <!-- Empty on purpose -->
+      </div>
+      <div
+        class="text-center text-[#feffff] absolute top-0 h-full w-full flex justify-center items-center px-4 md:px-10"
+      >
+        <div class="w-full md:w-2/3 lg:w-1/2 pt-20">
+          <p class="text-2xl md:text-3xl big-text text-brandGreen">About us</p>
+          <p class="mt-4 leading-6 text-lg">
+            Welcome to Wavends, a leading technology solutions provider catering
+            to diverse industries. With our innovative approach and cutting-edge
+            expertise, we empower businesses to thrive in the digital era
+          </p>
+        </div>
+      </div>
+    </div>
+
     <!-- Nav -->
-    <div class="fixed top-0 w-full">
-      <div class="grid gap-6 md:gap-0 md:flex md:justify-between md:items-center text-white bg-[#17252a] px-4 md:px-10 py-5">
+    <div class="fixed top-0 w-full z-50">
+      <div
+        class="grid gap-6 md:gap-0 md:flex md:justify-between md:items-center text-white bg-[#00000032] backdrop-blur-md px-4 md:px-10 py-5"
+      >
         <a href="/index.html" class="flex justify-center md:justify-start">
-          <img src="/Assets/images/wavends-logo.png" alt="logo" class="h-10">
+          <img src="/Assets/images/wavends-logo.png" alt="logo" class="h-10" />
         </a>
-        <div class="flex gap-10 text-sm justify-between">
-          <a href="/index.html"><span>Home</span></a>
+        <div class="flex gap-10 justify-between">
+          <!-- <a href="/index.html"><span>Home</span></a> -->
+          <a href="/about.html"><span>About us</span></a>
           <a href="/services.html"><span>Services</span></a>
-          <a href="/about.html"><span>About</span></a>
           <a href="/contact.html"><span>Contact</span></a>
         </div>
       </div>
     </div>
 
-    <!-- About -->
-    <div class="px-4 md:px-10 mb-20">
-      <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-4 mt-10">
+    <div class="my-20 grid gap-24">
+      <div class="px-4 md:px-10 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
         <div>
-          <div class="mt-8 mb-6">
-            <span
-              class="text-brand bg-brand/10 border border-brand cursor-default px-4 py-2 rounded-md text-xs font-medium"
-              >About us</span
-            >
-          </div>
-          <p class="big-text text-3xl text-brand mb-3">Welcome to Wavends - Empowering Your Business with Cutting-edge IT Solutions</p>
-          <p class="text-sm">
-            At Wavends, we understand that in the fast-paced world of technology, businesses need reliable and scalable IT solutions to stay competitive. That's why we're here - to be your trusted partner in delivering top-notch third-party IT solutions tailored to meet your specific needs.
+          <p>
+            At Wavends, we understand that technology is the driving force
+            behind success in today’s fast-paced world. We specialize in
+            delivering tailored solutions that address the unique challenges
+            faced by different industries, helping our clients stay ahead of the
+            competition and achieve their business objectives
+          </p>
+          <p class="mt-4 big-text text-2xl text-brandGreen">Our core values</p>
+          <ul class="list-disc list-inside">
+            <li>Committed to delivering the best</li>
+            <li>Honest and transparent services</li>
+            <li>We care for your business just like ours</li>
+            <li>Keep learning and adapting to new technologies</li>
+          </ul>
+        </div>
+        <img src="./Assets/images/about-233.jpg" alt="" class="rounded-md"/>
+      </div>
+      <div class="px-4 md:px-10 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+        <img src="./Assets/images/about-234.jpg" alt="" class="rounded-md"/>
+        <div>
+          <p>
+            Our team of skilled professionals brings together a wealth of knowledge and experience in various domains, including software development, artificial intelligence, data analytics, cloud computing, cybersecurity, and more. We stay up to date with the latest industry trends and advancements to ensure that our clients receive the most advanced and effective technology solutions available.
+          </p>
+          <p class="mt-4">We believe in a collaborative approach, working closely with our clients to understand their specific requirements, business processes, and objectives. This allows us to design and implement customized solutions that align perfectly with their needs and deliver measurable results. We take pride in our ability to transform complex challenges into innovative technology solutions that drive efficiency, productivity, and growth.</p>
+          <p class="mt-4">Whether you are in manufacturing, healthcare, finance, retail, or any other industry, our comprehensive range of technology services can cater to your specific needs. We offer consultancy, software development, system integration, data analysis, digital transformation, IT infrastructure management, and much more. Our solutions are scalable, flexible, and future-proof, enabling our clients to adapt to evolving market dynamics and seize new opportunities.</p>
+        </div>
+      </div>
+      <div class="px-4 md:px-10 bg-brandGreen py-20 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+        <div>
+          <div class="mb-4 text-2xl md:text-3xl">What sets us apart?</div>
+          <p>
+            What sets us apart is our unwavering commitment to quality, reliability, and customer satisfaction. We prioritize building long-term partnerships with our clients, providing ongoing support, and ensuring that our solutions continue to meet their evolving needs. Our customer-centric approach and dedication to excellence have earned us a reputation for delivering exceptional results.
+          </p>
+          <p class="mt-4">Explore our website to learn more about our comprehensive range of technology solutions and the industries we serve. We would be delighted to discuss how we can collaborate to leverage technology for your business success. Contact us today and let’s embark on a transformative technology journey together.</p>
+        </div>
+        <img src="./Assets/images/about-235.jpg" alt="" class="rounded-md"/>
+      </div>
+      <div class="px-4 md:px-10 text-center">
+        <p class="mt-4 big-text text-2xl text-brandGreen">Have a project on mind?</p>
+        <p>We can help you bring your ideas to life. Let’s talk about what we can build and raise together.</p>
+        <div class="mt-6"><a href="/contact.html" class="bg-brandGreen text-sm font-medium px-8 py-4 rounded-md outline outline-1 outline-brandGreen/20 outline-offset-2 hover:outline-brandGreen text-white transition-all">Connect with us</a></div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="px-4 md:px-10 border-t border-[#ffffff16]">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 lg:grid-cols-4 py-20">
+        <div class="col-span-1 lg:col-span-2">
+          <img src="/Assets/images/wavends-logo.png" alt="" class="h-10 mb-2" />
+          <p class="big-text text-2xl">
+            Discover the possibilities with Wavends.
+          </p>
+          <p>
+            Let us be your trusted IT solutions partner, guiding you towards a
+            future of technological excellence. Contact us today to discuss how
+            our third-party products can elevate your business to new heights.
           </p>
         </div>
-        <div><img src="/Assets/images/image-2.jpg" alt="" class="rounded-md mt-6"></div>
+        <div>
+          <p class="font-bold">Contact:</p>
+          <ul class="lg:list-disc list-outside grid gap-3 mt-6">
+            <li>2 Onikoyi, Street, Ikoyi Lagos.</li>
+            <li class="mb-6">RMZ Ecospace Outer Ring Road Bangalore 560103.</li>
+            <li>Mail: info@wavends.com</li>
+            <li>Phone: +234 90692 96945, +91 8861257188</li>
+          </ul>
+        </div>
+        <div>
+          <p class="font-bold">Links:</p>
+          <ul class="lg:list-disc list-outside grid gap-3 mt-6">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/services.html">Services</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+            <li><a href="https://ads.wavends.com/">Digital marketing</a></li>
+          </ul>
+        </div>
       </div>
-
-    </div>
-
-    <!-- Testimonials -->
-    <div class="px-4 md:px-10 mb-20">
-      <p class="big-text text-3xl text-brand mb-6">What Our Clients Say</p>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div class="rounded-md p-5 border bg-slate-100 grid gap-3">
-          <div class="flex items-center gap-3">
-            <div>
-              <img src="/Assets/images/image-4.jpg" alt="" class="h-16 w-16 rounded-full object-cover">
-            </div>
-            <div class="grid">
-              <span class="font-semibold">Patricia Smith.</span>
-              <img src="/Assets/icons/rating.svg" alt="">
-            </div>
-          </div>
-          <p class="text-sm leading-6">The wavends agency exceeded my expectations with their innovative ideas and flawless execution. They transformed our online presence, delivering exceptional results that propelled our business to new heights.</p>
+      <div
+        class="border-t border-[#ffffff16] py-8 font-medium md:flex justify-between"
+      >
+        <div>
+          Copyright © <span id="currentYear"></span> Wavends | Powered by
+          Wavends
         </div>
-        <div class="rounded-md p-5 border bg-slate-100 grid gap-3">
-          <div class="flex items-center gap-3">
-            <div>
-              <img src="/Assets/images/image-3.jpg" alt="" class="h-16 w-16 rounded-full object-cover">
-            </div>
-            <div class="grid">
-              <span class="font-semibold">Mark Hoffman.</span>
-              <img src="/Assets/icons/rating.svg" alt="">
-            </div>
-          </div>
-          <p class="text-sm leading-6">Working with the wavends was a game-changer for our brand. Their strategic approach, coupled with their expertise in web development and digital marketing, helped us achieve remarkable growth and increased customer engagement.</p>
-        </div>
-        <div class="rounded-md p-5 border bg-slate-100 grid gap-3">
-          <div class="flex items-center gap-3">
-            <div>
-              <img src="/Assets/images/image-6.jpg" alt="" class="h-16 w-16 rounded-full object-cover">
-            </div>
-            <div class="grid">
-              <span class="font-semibold">Daniel Johnson.</span>
-              <img src="/Assets/icons/rating.svg" alt="">
-            </div>
-          </div>
-          <p class="text-sm leading-6">I highly recommend the wavends for their exceptional creativity and attention to detail. They understood our vision and brought it to life with a stunning website design and a comprehensive digital strategy that significantly boosted our online visibility.</p>
-        </div>
-        <div class="rounded-md p-5 border bg-slate-100 grid gap-3">
-          <div class="flex items-center gap-3">
-            <div>
-              <img src="/Assets/images/image-5.jpg" alt="" class="h-16 w-16 rounded-full object-cover">
-            </div>
-            <div class="grid">
-              <span class="font-semibold">Pricilia Doe.</span>
-              <img src="/Assets/icons/rating.svg" alt="">
-            </div>
-          </div>
-          <p class="text-sm leading-6">Partnering with the wavends was the best decision we made for our online business. Their professionalism, prompt communication, and data-driven strategies produced outstanding outcomes, driving significant traffic, conversions, and revenue. They truly exceeded our expectations.</p>
+        <div class="flex gap-4 mt-6 md:mt-0">
+          <img src="/Assets/icons/instagram.svg" alt="" class="h-5" />
+          <img src="/Assets/icons/facebook.svg" alt="" class="h-5" />
+          <img src="/Assets/icons/twitter.svg" alt="" class="h-5" />
+          <img src="/Assets/icons/youtube.svg" alt="" class="h-5" />
         </div>
       </div>
     </div>
 
-     <!-- Connect with us -->
-     <div class="px-4 md:px-10 mb-20">
-      <div class="w-full">
-        <p class="text-3xl big-text text-brand mb-3">Discover the possibilities with Wavends.</p>
-        <p class="">Let us be your trusted IT solutions partner, guiding you towards a future of technological excellence. Contact us today to discuss how our third-party products can elevate your business to new heights.</p>
-        <div class="mt-8">
-          <a href="/contact.html" class="bg-brand text-sm text-white font-medium px-8 py-4 rounded-md outline outline-1 outline-white outline-offset-2 hover:outline-brand transition-all">Contact us</a>
-        </div>
-    </div>
-    </div>
-
-  <!-- Footer -->
-  <div class="px-4 md:px-10 border-t text-sm">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 lg:grid-cols-4 py-20">
-      <div  class="col-span-1 lg:col-span-2">
-        <p class="font-bold">Address:</p>
-        <ul class="lg:list-disc list-inside grid gap-3 mt-6">
-          <li>2 Onikoyi, Street, Ikoyi Lagos.</li>
-          <li>RMZ Ecospace Outer Ring Road Bangalore 560103.</li>
-        </ul>
-        <div class="mt-4">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497698.77489487146!2d77.30124752310827!3d12.954459548453066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka%2C%20India!5e0!3m2!1sen!2sng!4v1711456292177!5m2!1sen!2sng" class="w-full" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-      <div>
-        <p class="font-bold">Contact:</p>
-        <ul class="lg:list-disc list-inside grid gap-3 mt-6">
-          <li>info@wavends.com</li>
-          <li>+234 90692 96945</li>
-          <li>+91 8861257188</li>
-        </ul>
-      </div>
-      <div>
-        <p class="font-bold">Socials:</p>
-        <ul class="grid gap-3 mt-6">
-          <li class="flex gap-2 hover:gap-4 transition-all">
-            <span class=""
-              ><img
-                src="/Assets/icons/twitter.svg"
-                alt="twitter"
-                class="h-5" /></span
-            ><span>Twitter - X</span>
-          </li>
-          <li class="flex gap-2 hover:gap-4 transition-all">
-            <span class=""
-              ><img
-                src="/Assets/icons/youtube.svg"
-                alt="youtube"
-                class="h-5" /></span
-            ><span>Youtube</span>
-          </li>
-          <li class="flex gap-2 hover:gap-4 transition-all">
-            <span class=""
-              ><img
-                src="/Assets/icons/facebook.svg"
-                alt="facebook"
-                class="h-5" /></span
-            ><span>Facebook</span>
-          </li>
-          <li class="flex gap-2 hover:gap-4 transition-all">
-            <span class=""
-              ><img
-                src="/Assets/icons/instagram.svg"
-                alt="instagram"
-                class="h-5" /></span
-            ><span>Instagram</span>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="border-t py-8 font-medium">
-      Copyright © <span id="currentYear"></span> Wavends | Powered by Wavends
-    </div>
-  </div>
-
-  <!-- Javascript -->
-  <script>
-    var currentYear = new Date().getFullYear();
-    document.getElementById("currentYear").textContent = currentYear;
-  </script>
-
-</body>
+    <!-- Javascript -->
+    <script>
+      var currentYear = new Date().getFullYear();
+      document.getElementById("currentYear").textContent = currentYear;
+    </script>
+  </body>
 </html>
